@@ -58,7 +58,7 @@ export default function HomePage() {
     setResponse(null);
 
     try {
-      const endpoint = `${apiBaseUrl}query`;
+      const endpoint = `${apiBaseUrl}query/`;
       console.log(`Sending to: ${endpoint}`);
       const res = await fetch(endpoint, {
         method: 'POST',
